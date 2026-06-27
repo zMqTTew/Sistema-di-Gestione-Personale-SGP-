@@ -49,7 +49,7 @@ Un registro sicuro, sincronizzato sul database remoto, per salvare e recuperare 
 
 * **Hashing della Master Password:** tramite algoritmo `SHA-256` con *salt* casuale (`os.urandom`).
 * **Derivazione della Chiave:** utilizzo del protocollo `PBKDF2HMAC` per generare una chiave simmetrica temporanea legata alla sessione di login.
-* **Cifratura Simmetrica:** le password dei singoli servizi vengono cifrate tramite algoritmo **AES-256** (implementazione *Fernet*) prima di essere salvate nel database.
+* **Cifratura Simmetrica:** le password dei singoli servizi vengono cifrate tramite algoritmo **AES-128** (implementazione *Fernet*) prima di essere salvate nel database.
 * **Vault navigabile:** elenco di tutti i servizi salvati, consultabile a pagine fisse.
 
 ### 4. 💻 Monitoraggio Stato PC
