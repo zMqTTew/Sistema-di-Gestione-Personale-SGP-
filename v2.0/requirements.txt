@@ -1,0 +1,8 @@
+customtkinter
+cryptography
+psutil
+qrcode
+pillow
+psycopg2-binary
+dotenv
+pynvml
